@@ -1,4 +1,38 @@
 .UsersBrowser {
-  padding: 1em;
+  position: relative;
+  height: 900px;
+}
+
+
+.UserListItem {
+  position: absolute;
+  left: 10%;
+  padding: 5px 10px;
+  width: 40%;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background: transparent;
+  transition: all 0.4s ease-in-out;
+}
+
+.UserListItem--active {
+  padding: 50px 10px;
+  width: 80%;
+  border: 1px solid #f4e64c;
+  background: #f4e64c;
+}
+
+.UserListItem_name {
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 700;
   color: #ffffff;
+}
+
+.UserListItem_phone {
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #eeeeee;
 }
